@@ -4,7 +4,7 @@ title:      tensorflow.js「译」
 subtitle:   tensorflow的JS生态
 date:       2019-02-11
 author:     BY
-header-img: img/post-bg-tensorflowJS.jpg
+header-img: img/post-bg-tensorflowJS.png
 catalog: true
 tags:
     - tensorflow

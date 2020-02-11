@@ -4,7 +4,7 @@ title:      fuchsia
 subtitle:   代码结构
 date:       2020-02-11
 author:     BY
-header-img: img/post-bg-fuchsia.png
+header-img: img/post-bg-fuchsia.svg
 catalog: true
 tags:
     - fuchsia

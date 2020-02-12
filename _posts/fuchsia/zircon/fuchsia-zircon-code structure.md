@@ -15,7 +15,16 @@ tags:
 ### zircon代码结构
 
 - zircon:
-    - 
+    - bootloader    : a UEFI boot shim for Zircon that can load images vis chaining iPXE, filesystem, local disk partitions
+    - experimental  : nothing
+    - kernel        : core impementation of Zircon
+    - prebuilt      : nothing
+    - public        : GN integration for Zircon
+    - script        : scripts
+    - system        :  
+    - third_party   : third_party
+    - tools         : some useful tools
+    - vdso          : virtual dynamic shared object
 
 ### bootloader
 

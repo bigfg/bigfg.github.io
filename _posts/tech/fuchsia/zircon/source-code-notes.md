@@ -13,3 +13,5 @@
 6、#include<lib/counters.h> --> zircon/kernel/lib/counters/include/lib/counters.h
 
 7、#include<object/dispatcher.h> --> zircon/kernel/object/include/object/dispatcher.h 应该写成#include "object/dispatcher.h"
+
+8、/fuchsia/zircon/kernel/object/include/object/handle.h #include<stdint.h> --> libc++系统库，暂时不完全能确定，/fuchsia/zircon/kernel/lib/libc/include/stdint.h，但是参考2 和 3可以得出结论，如果引用的是后者，则应该写成#include<libc/stdint.h>
